@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    background-color: #ccc;
+    padding: 30px;
+    height: 4.2rem;
+    overflow: hidden;
+    position: relative;
+    transition: height .4s ease;
+}
+.headerAmpliado{
+    background-color: #ccc;
+    padding: 30px;
+    height: 6.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+.header__titulo{
+    margin: 0 0 1rem;
+}
+.header__subtitulo{
+    margin: 0 0 1rem;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__nav a{
+    color: #444;
+    font-size: 1.2rem;
+    font-weight: 900;
+    transition: font-size .2s ease;
+}
+
+.nav__btn {
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    border:1px solid black;
+    padding: .5rem;
+    
+
+}
+
+.header__nav a:hover{
+    color: white;
+    font-size:1.3rem;
+}
+
