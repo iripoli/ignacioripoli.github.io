@@ -26,3 +26,12 @@ function inputArray (event){
 function myFunction(x) {
     x.classList.toggle("change");
   }
+
+
+  document.querySelector('form').addEventListener('submit', function(event){
+      event.preventDefault();
+      console.log(this.nombre.value, this.email.value, this.empresa.value);
+  })
+  function validateName(nombre){
+      return nombre.length>4 ? true : false
+  }
