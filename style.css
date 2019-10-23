@@ -34,7 +34,7 @@ button {
 header{
     background-color:#333;
     padding: 30px;
-    height: 390px;
+    height: 360px;
     overflow: hidden;
     position: relative;
     transition: height .4s ease;
@@ -137,7 +137,7 @@ header{
 }
 .header__nav a{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 900;
     transition: font-size .2s ease;
     padding-left: 0.5rem;
@@ -179,7 +179,7 @@ header{
 
 .header__nav a:hover{
     color: white;
-    font-size:1.3rem;
+    font-size:0.7rem;
 }
 
 /* ~~~~~~~FINAL DEL HEADER~~~~~~~~~~~ */
@@ -215,6 +215,36 @@ header{
     padding: 0.5rem;
 }
 
+/* TECNOLOGIAS */
+
+
+#tecnologia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(201, 216, 231);
+}
+
+.subtitulo_tecnologia{
+    color: black;
+}
+
+#tecnoContenedor{
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 100px 100px;
+    justify-items: center;
+    align-items: center;
+}
+
+.tecnoContenedor__tecnologia img{
+    height: 50px;
+    width: 50px;
+}
+
+
 
 /* ~~~~~~~EXPERIENCIA LABORAL~~~~~~~~~ */
 
@@ -241,7 +271,7 @@ header{
 }
 
 
-.historial, .trabajo{
+.historial, .trabajo_actual, .trabajo_antiguo{
     background: #8ACB82;
     position: absolute;
     left: 5px;
@@ -255,9 +285,12 @@ header{
 .linTime{
     background: #333;
     margin: 10px 29px 0px;
-    height: 500px;
+    height: 700px;
     width: 3px;
     z-index: 1;
+}
+#linTime__trabajos{
+    position: relative;
 }
 
 #img_bookmark{
@@ -269,28 +302,21 @@ header{
     z-index: 3;
 }
 
-.trabajo{
-    top: 145px;
-    left: 19px;
+.trabajo_actual, .trabajo_antiguo{
+    top: 35px;
+    left: -43px;
     height: 25px;
     width: 25px;
 }
 
-.trabajo.antiguo{
+.trabajo_antiguo{
     background-color: #333;
-    top: 330px;
+
 }
-
-.trabajo.antiguoArg{
-    background-color: #333;
-    top: 520px;
-}
-
-
 
 .linTime__contenido{max-width: 38vh;}
 
-.linTime__contenido p {padding: 0 0 5px 0;}
+.linTime__contenido p {padding: 0 10px 5px 0;}
 
 .linTime__contenido h4, .linTime__contenido h5 {padding: 4px 0 4px 0;}
 
