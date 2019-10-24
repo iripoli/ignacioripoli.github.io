@@ -187,7 +187,7 @@ header{
     background-color: #EBF0DF;
 }
 
-.perfil p{
+.perfil p, .form__contacto{
     font-family: 'Roboto', serif;
     font-size: 15px;
     font-weight: lighter;
