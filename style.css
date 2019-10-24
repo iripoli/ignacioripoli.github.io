@@ -110,7 +110,6 @@ header{
 
 .header__titulo{
     margin: 0 0 1rem;
-    display: inline-block;
     position: relative;
     left: calc(50% - 98px);
     top: 25px;
@@ -271,10 +270,10 @@ header{
 }
 
 
-.historial, .trabajo_actual, .trabajo_antiguo{
-    background: #8ACB82;
+.historial, .trabajo_actual, .trabajo_antiguo, .educacion_actual, .educacion_antigua{
+    background: rgb(233, 192, 145);
     position: absolute;
-    left: 5px;
+    left: -57px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -285,13 +284,15 @@ header{
 .linTime{
     background: #333;
     margin: 10px 29px 0px;
-    height: 700px;
+    height: 900px;
     width: 3px;
     z-index: 1;
 }
 #linTime__trabajos{
     position: relative;
 }
+
+
 
 #img_bookmark{
     position: absolute;
@@ -302,16 +303,21 @@ header{
     z-index: 3;
 }
 
-.trabajo_actual, .trabajo_antiguo{
+.trabajo_actual, .trabajo_antiguo, .educacion_actual, .educacion_antigua{
+    background: #8ACB82;
     top: 35px;
     left: -43px;
     height: 25px;
     width: 25px;
 }
 
-.trabajo_antiguo{
+.trabajo_antiguo, .educacion_antigua{
     background-color: #333;
 
+}
+
+.educacion_actual, .educacion_antigua{
+    top: 15px;
 }
 
 .linTime__contenido{max-width: 38vh;}
@@ -321,3 +327,7 @@ header{
 .linTime__contenido h4, .linTime__contenido h5 {padding: 4px 0 4px 0;}
 
 #linTime__trabajos{padding: 0 0 40px 0;}
+
+#linTime__trabajos.formacion{
+    padding: 0;
+}
