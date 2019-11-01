@@ -487,6 +487,12 @@ header{
     }
 }
 
-#perfil__home, #experiencia, #contacto {
+#perfil__home,#tecnologia,  #experiencia, #contacto {
     padding: 0 30px ;
+}
+
+.home__sobreMi p{
+    display: flex;
+    width: 700px;
+    justify-content: center;
 }
