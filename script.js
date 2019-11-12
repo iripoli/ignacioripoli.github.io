@@ -51,3 +51,9 @@ function myFunction(x) {
 // botonMenu.addEventListener('click', function(){
     
 // });
+
+// AGREGAR DATOS DE FORMULARIO AL DB.JSON
+
+const url = 'http://localhost:8080/';
+
+    

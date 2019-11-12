@@ -402,7 +402,7 @@ header{
         width: 250px; /* 0 width - change this with JavaScript */
         position: fixed;
         right: -250px;
-
+        opacity: 0.97;
         top: 0;
         /* left: 0; */
         background-color: #111;
@@ -453,6 +453,7 @@ header{
         position: fixed;
         right: 0;
         top: 0;
+
         background-color: #111; /* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 70px; /* Place content 60px from the top */
