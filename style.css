@@ -494,6 +494,5 @@ header{
 
 .home__sobreMi p{
     display: flex;
-    width: 700px;
     justify-content: center;
 }
